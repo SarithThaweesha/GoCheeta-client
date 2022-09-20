@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.1-b419 (branches/2.3.1.x-7937; 2014-08-04T08:11:03+0000) JAXWS-RI/2.2.10-b140803.1500 JAXWS-API/2.2.11 JAXB-RI/2.2.10-b140802.1033 JAXB-API/2.2.12-b140109.1041 svn-revision#unknown. --><xs:schema xmlns:tns="http://GoCheeta/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://GoCheeta/">
+
+<xs:element name="addBooking" type="tns:addBooking"/>
+
+<xs:element name="addBookingResponse" type="tns:addBookingResponse"/>
+
+<xs:element name="getBooking" type="tns:getBooking"/>
+
+<xs:element name="getBookingResponse" type="tns:getBookingResponse"/>
+
+<xs:element name="getDestinationGa" type="tns:getDestinationGa"/>
+
+<xs:element name="getDestinationGaResponse" type="tns:getDestinationGaResponse"/>
+
+<xs:element name="getDestinationGampaha" type="tns:getDestinationGampaha"/>
+
+<xs:element name="getDestinationGampahaResponse" type="tns:getDestinationGampahaResponse"/>
+
+<xs:element name="getDestinationJaffna" type="tns:getDestinationJaffna"/>
+
+<xs:element name="getDestinationJaffnaResponse" type="tns:getDestinationJaffnaResponse"/>
+
+<xs:element name="getDestinationK" type="tns:getDestinationK"/>
+
+<xs:element name="getDestinationKResponse" type="tns:getDestinationKResponse"/>
+
+<xs:element name="getDestinationKandy" type="tns:getDestinationKandy"/>
+
+<xs:element name="getDestinationKandyResponse" type="tns:getDestinationKandyResponse"/>
+
+<xs:element name="getDestinationNugegoda" type="tns:getDestinationNugegoda"/>
+
+<xs:element name="getDestinationNugegodaResponse" type="tns:getDestinationNugegodaResponse"/>
+
+<xs:complexType name="getDestinationKandy">
+<xs:sequence>
+<xs:element name="name" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getDestinationKandyResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:destination" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="destination">
+<xs:sequence>
+<xs:element name="destype" type="xs:string" minOccurs="0"/>
+<xs:element name="distance" type="xs:string" minOccurs="0"/>
+<xs:element name="id" type="xs:string" minOccurs="0"/>
+<xs:element name="price" type="xs:string" minOccurs="0"/>
+<xs:element name="stCity" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getBooking">
+<xs:sequence>
+<xs:element name="start" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getBookingResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:booking" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="booking">
+<xs:sequence>
+<xs:element name="desVehi" type="xs:string" minOccurs="0"/>
+<xs:element name="distance" type="xs:string" minOccurs="0"/>
+<xs:element name="id" type="xs:int"/>
+<xs:element name="price" type="xs:string" minOccurs="0"/>
+<xs:element name="start" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getDestinationJaffna">
+<xs:sequence>
+<xs:element name="name" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getDestinationJaffnaResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:destination" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getDestinationGampaha">
+<xs:sequence>
+<xs:element name="name" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getDestinationGampahaResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:destination" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="addBooking">
+<xs:sequence>
+<xs:element name="booking" type="tns:booking" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="addBookingResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getDestinationGa">
+<xs:sequence>
+<xs:element name="name" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getDestinationGaResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:destination" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getDestinationK">
+<xs:sequence>
+<xs:element name="name" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getDestinationKResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:destination" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getDestinationNugegoda">
+<xs:sequence>
+<xs:element name="name" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getDestinationNugegodaResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:destination" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

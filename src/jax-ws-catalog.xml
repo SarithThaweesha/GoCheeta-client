@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/GoCheeta-service/CustomerService?wsdl" uri="wsdl/localhost_8080/GoCheeta-service/CustomerService.wsdl"/>
+    <system systemId="http://localhost:8080/GoCheeta-service/CustomerService?xsd=1" uri="wsdl/localhost_8080/GoCheeta-service/CustomerService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/GoCheeta-service/VehicleService?wsdl" uri="wsdl/localhost_8080/GoCheeta-service/VehicleService.wsdl"/>
+    <system systemId="http://localhost:8080/GoCheeta-service/VehicleService?xsd=1" uri="wsdl/localhost_8080/GoCheeta-service/VehicleService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/GoCheeta-service/AdminService?wsdl" uri="wsdl/localhost_8080/GoCheeta-service/AdminService.wsdl"/>
+    <system systemId="http://localhost:8080/GoCheeta-service/AdminService?xsd=1" uri="wsdl/localhost_8080/GoCheeta-service/AdminService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/GoCheeta-service/DriverService?wsdl" uri="wsdl/localhost_8080/GoCheeta-service/DriverService.wsdl"/>
+    <system systemId="http://localhost:8080/GoCheeta-service/DriverService?xsd=1" uri="wsdl/localhost_8080/GoCheeta-service/DriverService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/GoCheeta-service/JourneyService?wsdl" uri="wsdl/localhost_8080/GoCheeta-service/JourneyService.wsdl"/>
+    <system systemId="http://localhost:8080/GoCheeta-service/JourneyService?xsd=1" uri="wsdl/localhost_8080/GoCheeta-service/JourneyService.xsd_1.xsd"/>
+</catalog>
